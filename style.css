@@ -222,3 +222,25 @@ footer a:hover {
   border-radius: 10px;
   cursor: pointer;
 }
+
+@media (max-width: 2000px) {
+  .quote {
+    font-size: 1.5em;
+  }
+
+  .author{
+    margin: 10px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 780px) {
+  .quote {
+    font-size: 0.8em;
+  }
+
+  .author{
+    margin: 10px;
+    font-size: 0.6em;
+  }
+}
