@@ -137,12 +137,13 @@ footer a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: auto;
   min-width: 15em;
 }
 
 .quote {
   margin: 10px;
-  font-size: 1.5em;
+  font-size: 1vw;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
