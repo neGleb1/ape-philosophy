@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Ape Philosophy</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="quote.html">Random</a>
+        <a href="optional.html">Optional</a>
+      </nav>
+    </header>
+    <main>
+      <h1 class="home-title">Ape Philosophy</h1>
+      <form action="quote.html" class="start-button">
+        <input type="submit" value="Start" />
+      </form>
+      <div class="ape-content">
+        <img src="ape.png" alt="Monkey" class="monkey" id="monkey" />
+        <img src="ape.png" alt="Monkey" class="monkey" id="monkey" />
+        <img src="alive.png" alt="Palm" class="palm" id="palm" />
+      </div>
+    </main>
+    <footer>
+      <h6>Created by</h6>
+      <a href="https://github.com/neGleb1" class="author">neGleb1</a>
+    </footer>
+    <script>
+      function repeatAnimation() {
+        const palm = document.getElementById('palm');
+        palm.src = "alive.png";
+        setTimeout(() => {
+          palm.src = "rip.png";
+          setTimeout(repeatAnimation, 2000);
+        }, 2000);
+      }
+      repeatAnimation();
+    </script>
+  </body>
+</html>
