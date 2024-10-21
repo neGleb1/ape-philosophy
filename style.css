@@ -163,6 +163,10 @@ footer a:hover {
   background-color: #e6ac00;
 }
 
+.next-button input {
+  font-size: 2em;
+}
+
 .monkey {
     height: auto;
     min-width: 100px;
