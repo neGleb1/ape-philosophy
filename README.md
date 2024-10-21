@@ -19,13 +19,13 @@
 
 1) Basic CSS styling (colors, fonts). style.css row 9, row 12, row 13
 
-2) Use of classes and IDs to style specific elements. style.css row 54, row 195
+2) Use of classes and IDs to style specific elements. style.css row 54, row 216
 
-3) Implementation of responsive design elements. style.css row 42. YOU CAN ALSO JUST TRY TO RESIZE BROWSER WINDOW
+3) Implementation of responsive design elements. style.css row 43. YOU CAN ALSO JUST TRY TO RESIZE BROWSER WINDOW
 
-4) Use of layouts for advanced user interfaces (arrays, float, flexbox, css grid) style.css row 43, row 108
+4) Use of layouts for advanced user interfaces (arrays, float, flexbox, css grid) style.css row 44, row 114
 
-5) Styling demonstrates a strong grasp of layout principles, aesthetics, and user experience. WEBSITE WORKS ON COMPUTER, PHONE AND TABLET
+5) Styling demonstrates a strong grasp of layout principles, aesthetics, and user experience. WEBSITE WORKS ON COMPUTER, PHONE AND TABLET SCREENS
 
 ## JavaScript Basics
 
